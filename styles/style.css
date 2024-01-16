@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;600;700;800&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Common styles */
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 15px 35px;
+}
+/* Nav related styles */
+.header-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+}
+.logo-container{
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+.logo-container h2{
+    color: #131318;
+    font-size: 36px; 
+    font-weight: 800;
+}
+.menu-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 45px;
+  
+    
+}
+.menu-container a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400; 
+}
+.menu-container a:nth-child(1){
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Banner Related styles */
+.banner-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.banner-container{
+    position: relative;
+}
+.banner-section img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    
+}
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-button-container{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60%;
+    margin-left: 185px;
+    margin-right: 185px;
+    padding: 12px;
+}
+.input-button {
+    padding: 15px;
+    
+}
+.input-button a{
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px 30px;
+    
+}
+
+.input-button a:nth-child(4){
+    background-color: #FF5400;
+    color: #FFF;
+}
+
+/* Popular styles */
+.popular-section{
+    max-width: 1440px;
+    max-height: 460px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+}
+.popular-container{
+    width: 50%;
+}
+.popular-container h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-container p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
+.ul-iteam{
+    margin: 0 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.ul-description{
+    width: 90%;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px; 
+}
+.popular-img-container{
+    width: 50%;
+}
+.popular-img-container img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+/* Newsletter styles */
+.newsletter-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+.newsletter-container{
+    display: flex;
+    height: 420px;
+}
+.newsletter-content{
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 30px;
+}
+.newsletter-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newsletter-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 45px;
+}
+.news-form-container input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 72%;
+    padding: 20px;
+    margin-top: 24px;
+}
+.btn-subscribe{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    width: 80%;
+    padding: 20px;
+    margin-top: 24px;
+}
+.newsletter-img-container{
+    width: 58%;
+    margin-left: 20px;
+    position: relative;
+    
+}
+.newsletter-img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Discount card styles */
+.discount-card{
+    width: 350px;
+    height: 90px;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 10px;
+    position: absolute;
+    top: 255px;
+    left: 430px;
+    transform: rotate(-19.628deg);
+}
+.travel-com{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.discount-card h2{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 7px;
+    text-align: center;
+}
+
+/* Pakages related styles */
+.pakage-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.pakage-heading button{
+    background-color: #FF5400;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.pakages-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+   margin-top: 100px;
+}
+
+.pakages-iteams{
+    width: 50%;
+    margin-right: 84px;
+}
+.pakages-iteams h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px; 
+    margin-right: 110px;
+}
+.pakages-iteams p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
+.pakages-img{
+    width: 50%;
+   position: relative;
+}
+.mountain-img{
+    position: ;
+}
+ .mountain-img img{
+    width: 100%;
+}
+.mountain-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+}
+
+/* footer styles */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-top-container{
+    max-width: 1440px; 
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 110px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-description p{
+    text-align: center;
+    margin: 0 335px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.social-icons a{
+    padding: 15px;
+    font-size: 30px;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 125px;
+    padding-bottom: 80px;
+}
+
