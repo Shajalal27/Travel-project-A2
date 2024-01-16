@@ -167,6 +167,28 @@ body{
    
 }
 
+/* Choose Us styles */
+.choose-us-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid red;
+}
+.choose-us h1{
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choose-us p{
+    text-align: center;
+    margin: 24px 395px 0 395px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 /* Newsletter styles */
 .newsletter-section{
     max-width: 1440px;
@@ -349,4 +371,6 @@ footer{
     margin-top: 125px;
     padding-bottom: 80px;
 }
-
+.hide{
+    display: none;
+}

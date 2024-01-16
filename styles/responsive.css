@@ -1,0 +1,16 @@
+
+@media screen and (max-width:576px){
+    .header-section{
+        flex-direction: column;
+    } 
+    .logo-container{
+        width: 100%;
+       justify-content: center;
+    }
+    .menu-container{
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 92px;
+    }
+}
+
