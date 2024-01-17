@@ -54,6 +54,75 @@
     .btn-primary{
         margin-bottom: 15px;
     }
+/* Choose us  */
+    .choose-us{
+        margin-top: 700px;
+    }
+    .choose-us p{
+        margin: 0;
+    }
+    .choose-us h1{
+        font-size: 30px;
+    }
+    .destination-img-gallery-1 {
+        flex-direction: column;
+    }
+    .box1-img{
+        width: 100%;
+    }
+    .box2-img{
+        width: 100%;
+    }
+    .destination-img-gallery-2 {
+        flex-direction: column;
+    }
+    .box3-img{
+        width: 100%;
+    }
+    .box4-img{
+        width: 100%;
+    }
+    .box4-img img{
+        object-fit: cover;
+     }
+    .box5-img{
+        width: 100%;
+    }
+    .box5-img img{
+       object-fit: cover;
+    }
+    .destination-img-gallery-3 {
+        flex-direction: column;
+    }
+    .box6-img{
+        width: 100%;
+    }
+    .box6-img img{
+        object-fit: cover;
+     }
+    .box7-img{
+        width: 100%;
+    }
+    .box7-img img{
+       margin-top: 280px;
+     }
+
+     .service-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .Handpicked-Hotels {
+        width: 100%;
+    }
+    .best-price {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 20px;
+    }
+
+    .section {
+        flex-direction: column;
+    }
 }
 
 /* Tablet device */
