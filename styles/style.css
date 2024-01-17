@@ -58,28 +58,32 @@ body{
 .banner-section{
     max-width: 1440px;
     margin: 0 auto;
-    height: 500px;
+    height: auto;
     margin-top: 50px;
     border-radius: 5px;
 }
 .banner-container{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 .banner-section img{
     width: 100%;
-    object-fit: cover;
     position: relative;
-    
+    object-fit: cover;
+    height: 600px;
 }
 .banner-content{
+    max-width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .banner-title{
+    width: 100%;
     color: #FFF;
-    font-size: 4rem;
+    font-size: 64px;
     font-weight: 800;
 }
 .banner-description{
@@ -95,30 +99,45 @@ body{
     transform: translate(-70%, -50%);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    display: flex;
     justify-content: center;
-    align-items: center;
-    min-width: 60%;
+    
     margin-left: 185px;
     margin-right: 185px;
     padding: 12px;
 }
 .input-button {
     padding: 15px;
-    
+    height: 30px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
-.input-button a{
+.input-button input{
     text-decoration: none;
-    border: 2px solid red;
     border-radius: 8px;
     background: #FFF;
-    padding: 15px 30px;
-    
+    padding: 20px 30px;
+
 }
 
-.input-button a:nth-child(4){
-    background-color: #FF5400;
+/* Find now styles */
+.find-now{
+    position: relative;
+}
+.find-now ::placeholder{
+    padding-left: 50px;
+    font-size: 18px;
     color: #FFF;
+}
+.find-now input:nth-child(1){
+    background-color: #FF5400;
+    
+}
+.fa-solid{
+    position: absolute; 
+    top: 18px;
+    left: 16px;
+    font-size: 25px;
 }
 
 /* Popular styles */

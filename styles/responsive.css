@@ -10,7 +10,88 @@
     .menu-container{
         flex-direction: column;
         gap: 25px;
-        margin-left: 92px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .input-button{
+        flex-direction: column;
+    }
+    .banner-content{
+        text-align: center;
+        width: 70%;
+        top: 14%;
+        left: 39%;
+        transform: translate(-30%, -45%);
+    }
+    .banner-title{
+        font-size: 1.8rem;
+        top: -100px;
+        left: 0;-
+        
+    }
+    .banner-button-container{
+        height: 350px;
+        top: 42%;
+        left: 32%;
+        display: flex;
+        justify-content: center;
+        transform: translate(-86%, -24%);
     }
 }
 
+/* Tablet device */
+@media screen and (min-width:576px) and (max-width:990px) {
+    .header-section{
+        flex-direction: column;
+    }
+    .logo-container{
+        width: 100%;
+       justify-content: center;
+    } 
+    .menu-container{
+        margin-top: 30px;
+        gap: 25px;
+        width: 100%;
+    }
+    .input-button{
+        flex-direction: column;
+    }
+    .banner-content{
+        text-align: center;
+        width: 70%;
+        top: 14%;
+        left: 39%;
+
+    }
+    .banner-title{
+        font-size: 2.5rem;
+        top: -150px;
+        left: 0;
+    }
+    .banner-button-container{
+        height: 350px;
+        top: 42%;
+        left: 32%;
+        display: flex;
+        justify-content: center;
+        transform: translate(-86%, -24%);
+    }
+}
+
+
+/* Laptop/Desktop device */
+@media screen and (min-width:990px) and (max-width:1200px) {
+    .banner-button-container{
+        top: 42%;
+        left: 32%;
+        display: flex;
+        justify-content: center;
+        transform: translate(-86%, -24%);
+    }
+    .banner-content{
+        text-align: center;
+        width: 70%;
+        top: 14%;
+        left: 39%;
+    }
+}
